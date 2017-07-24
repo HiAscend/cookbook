@@ -11,7 +11,19 @@
     <name>parent</name>
     <modules>
         <module>child</module>
+        <!--<module>child2</module>-->
     </modules>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <modules>
+                <module>child</module>
+                <module>child2</module>
+            </modules>
+        </profile>
+    </profiles>
+
     <dependencyManagement>
         <dependencies>
             <dependency>

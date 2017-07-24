@@ -22,7 +22,7 @@ buildNumber.properties
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
-.idea/**/workspace.xml
+.idea
 .idea/**/tasks.xml
 .idea/dictionaries
 
@@ -120,7 +120,7 @@ local.properties
 .worksheet
 ### Java template
 # Compiled class file
-*.class
+
 
 # Log file
 *.log
@@ -145,3 +145,4 @@ hs_err_pid*
 /.idea/
 /parent.iml
 /child/child.iml
+/child2/child2.iml
